@@ -6,7 +6,7 @@ module.exports = {
 	/**
 	 * Name of the bot
 	 * @type {string} */
-	name: "InsertNameHereBot",
+	name: "Helix Music",
 	/**
 	 * Database option (mongodb, postgresql) https://www.prisma.io/docs/reference/database-reference/connection-urls
 	 * @type {string} */
@@ -126,7 +126,7 @@ module.exports = {
 	/**
 	 * Color of the embeds (can also be hex)
 	 * @type {import('discord.js').ColorResolvable} */
-	embedColor: "Random",
+	embedColor: "#39f962",
 
 	/**
 	 * PresenceData object | https://discord.js.org/#/docs/main/stable/typedef/PresenceData
@@ -164,7 +164,7 @@ module.exports = {
 	/**
 	 * This icon will be in every embed's author field, if you don't want it, just leave it blank or "undefined"
 	 * @type {string} */
-	iconURL: undefined,
+	iconURL: "https://cdn.darrennathanael.com/icons/spinning_disk.gif",
 
 	defaultPlayerValues: {
 		twentyFourSeven: false,
